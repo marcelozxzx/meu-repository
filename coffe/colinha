@@ -1,0 +1,13 @@
+    <div class="banner">
+    
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 330px;">
+   		
+   		<!-- Slides Container -->
+   	
+    	<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 960px; height: 330px;">
+        
+        	<div><img u="image" src="banner.jpg" /></div>
+        	<div><img u="image" src="anime.jpg" /></div>
+           	<div><img u="image" src="anime2.png" /></div>
+			<div><img u="image" src="anime3.png" /></div>
+        </div>

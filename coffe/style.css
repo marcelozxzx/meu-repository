@@ -1,0 +1,84 @@
+body{
+margin: 20px;
+color: rgb(236, 231, 241);
+font-family:"Myriad Pro", Tahoma, Arial;
+background-image:url("Imagem dos Crias/background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: Black;
+font-size:20px;
+
+}
+
+img{
+width: 20000px
+height: 1000px
+    
+}
+#cabecalho{
+    position: relative;
+    top: 0px;
+    width: 100%;
+/*background-color: rgb(66, 170, 92);*/
+    text-align: center;
+
+
+}
+
+#rodape{
+    position: fixed;
+    bottom: 0px;
+
+}
+#Menu{
+    /*position: absolute;*/
+    left: 15px;
+    top: 160px;
+/*float:right;*/
+text-align: left;
+    
+}
+#logo{
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    
+}
+.flexbox-container{
+    display: flex;
+}
+#video{
+    position: relative;
+    left: 10px;
+    top:35px;
+}
+#contatos {
+    background-color: rgba(218, 220, 228, 0.6);
+    width:160px;
+
+}
+#celular{
+    visibility: hidden;
+    
+
+}
+
+#computador{
+    visibility: visible;
+
+
+}
+
+@media(max-width:650px) {
+    #celular{
+        visibility: visible;
+
+    }
+    
+    #computador{
+        visibility: hidden;
+    }
+
+
+}
